@@ -64,3 +64,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Instalacion
+Clonamos el proyecto y ejecutamos los siguientes comandos (PHP 8.1):
+
+ - composer install
+ - npm install
+ - copiamos el archivo .env.example con el nombre .env
+ - php artisan key:generate
+ - php artisan jwt:secret
+
+
+## Api
+Se adjunto el archivo documentacion_api.json que incluye una colleccion en postman donde encontraremos lo siquiente:
+ - auth
+  - login
+ - tasks
+  - list
+  - store
+  - update
+  - delete 
+
+Recordar que primero tienen que logearse con las credenciales:
+email: kikevargas23@gmail.com
+password: 12345678
