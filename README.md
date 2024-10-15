@@ -73,6 +73,8 @@ Clonamos el proyecto y ejecutamos los siguientes comandos (PHP 8.1):
  - copiamos el archivo .env.example con el nombre .env
  - php artisan key:generate
  - php artisan jwt:secret
+ - php artisan migrate
+ - php artisan db:seed
 
 
 ## Api
